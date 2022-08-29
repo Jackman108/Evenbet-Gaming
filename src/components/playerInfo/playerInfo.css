@@ -1,0 +1,44 @@
+.player-container {
+  display: flex;
+  margin: 20px 20px 20px 20px;
+}
+.user-container {
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 20px 10px 20px 20px;
+}
+.icons img {
+  height: 32px;
+  width: 32px;
+  left: 1px;
+  right: 1.07px;
+  top: 1px;
+  bottom: 1px;
+  background: url("../assets/img.png"), #1E1D27;
+  border: 1px solid #413E55;
+  border-radius: 100px;
+}
+.player-content {
+  margin: 1rem;
+  text-align: center;
+}
+.player-title {
+  width: 127px;
+  height: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/*# sourceMappingURL=playerInfo.css.map */
